@@ -52,14 +52,15 @@
 			<div class="center">
 				<nav>
 					<ul>
-						<li><a class="active-menu" href="<?php echo INCLUDE_PATH; ?>Home">HOME</a></li>
-						<li><a href="<?php echo INCLUDE_PATH; ?>Albuns">ÁLBUNS</a></li>
-						<li><a href="<?php echo INCLUDE_PATH; ?>Contato">CONTATO</a></li>
+						<li><a title="Home" <?php activeMenu('Home'); ?> href="<?php echo INCLUDE_PATH; ?>Home">HOME</a></li>
+						<li><a title="Albuns" <?php activeMenu('Albuns'); ?> href="<?php echo INCLUDE_PATH; ?>Albuns">ÁLBUNS</a></li>
+						<li><a title="Contato" <?php activeMenu('Contato'); ?> href="<?php echo INCLUDE_PATH; ?>Contato">CONTATO</a></li>
 					</ul>
 				</nav>
 			</div><!-- center -->
 		</div><!-- header2 -->
 	</header>
+
 
 	<?php 
 		if(file_exists('pages/'.$url.'.php')){

@@ -14,7 +14,8 @@
 	<link href="<?php echo INCLUDE_PATH; ?>estilo/style.css" rel="stylesheet"><!--estilo do site-->
 	<link rel="icon" href="<?php echo INCLUDE_PATH; ?>favicon.ico" type="image/x-icon" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"><!--deixar o site responsivo-->
-	<meta name="keywords" content="fotos-tumblr-foto-para-perfil-registro-aleatoria-antiga-animada-a-mais-curtida-do-instagram-fotografia-e-o-texto-remetem--influência-do-estilo-retrata-conhecida-álbum-album-de-ás-como-fotografar-á-noite-máquinas-fotograficas-à-fotografa-bonita-bts-bolo-noite-feste-casal-colorida-capa-facebook-cachorro-colagem-c-namorado-frases-flores-bebê-engraçada-em-pdf-perfil-gente-tirou-instagram-youtube-google-photos-photo-image-imagem-jovem-casamento-recem-nascido-gravida-albuns-de-figurinhas-presente-dia-dos-presenteie-fotofigurinha">
+	<meta name="author" content="Matheus Henrique de Oliveira Viana">
+	<meta name="keywords" content="fotos,álbum de fotos,photo,imagem,fotos para casamento,recem nascido,gravida,albuns de figurinhas,presente dia,presenteie,fotofigurinha,fotografa,fotografo,fotografia">
 	<meta name="description" href="Site De Fotos da Dayane, Contrate o nosso serviço, veja alguns dos meus ensaios e trabalhos, e conheça nosso Álbum Fotofigurinha."> 
 	
 

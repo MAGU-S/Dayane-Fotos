@@ -91,14 +91,79 @@ header .rede-sociais a{
 
 .header2 a{
 	color: #A68C86;
+	padding: 15px 0;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 .header2 .active-menu{
 	color: #D9C0BA !important;
 	border-bottom: 2px solid #D9C0BA;
 	padding-bottom: 15px;
-	padding-left: 15px;
-	padding-right: 15px;
+}
+
+footer {
+	position: fixed;
+	padding: 2px 0;
+	background: #D98E7E;
+	width: 100%;}
+
+footer.fixed{
+	bottom: 0;	
+}
+
+footer h6{
+	padding: 10px 0;
+	font-size: 12px;
+
+}
+
+footer ul{
+	position: relative;
+	top: 3px;
+	list-style-type: none;	
+}
+
+footer li{
+ 	display: inline-block;
+	font-size: 25px;
+	padding: 0 10px;
+}
+
+footer li a{
+	color: #8C3939;
+}
+
+.mensagem-erro404 .Wrapper404{
+	transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%, -50%);
+	left: 50%;
+	text-align: center;
+	padding: 0 2%;
+	width: 100%;
+	position: absolute;
+	top: 50%;
+}
+
+.mensagem-erro404 h1{
+	font-size: 80px;
+	color: #8C3939;
+}
+
+.mensagem-erro404 h5{
+	color: #8C3939;
+	font-size: 30px;
+}
+
+.mensagem-erro404 h6{
+	padding-top: 30px;
+}
+
+.mensagem-erro404 h6 a{
+	color:  #A6415C;
+	font-size: 30px;
+	text-decoration: none;
+	list-style-type: none;
 }
 
 

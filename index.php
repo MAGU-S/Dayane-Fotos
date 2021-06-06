@@ -22,11 +22,17 @@
 	
 </head>
 <body>
+
+	<?php 
+		$url = isset($_GET['url']) ? $_GET['url'] : 'Home';
+	 ?>
+
+
+
 	<header>
 		<div class="header1">
 			<div class="center">
-				<div class='logo left'><a href=""><img src="<?php INCLUDE_PATH; ?>imagens/logo.png" /></a></div><!-- logo -->
-
+				<div class='logo left'><a href="<?php INCLUDE_PATH; ?>"><img src="<?php INCLUDE_PATH; ?>imagens/logo.png" /></a></div><!-- logo -->
 				<div class="rede-sociais right">
 					<nav>
 						<ul>
@@ -46,14 +52,38 @@
 			<div class="center">
 				<nav>
 					<ul>
-						<li><a class="active-menu" href="">HOME</a></li>
-						<li><a href="">ÁLBUNS</a></li>
-						<li><a href="">CONTATO</a></li>
+						<li><a class="active-menu" href="<?php echo INCLUDE_PATH; ?>Home">HOME</a></li>
+						<li><a href="<?php echo INCLUDE_PATH; ?>Albuns">ÁLBUNS</a></li>
+						<li><a href="<?php echo INCLUDE_PATH; ?>Contato">CONTATO</a></li>
 					</ul>
 				</nav>
 			</div><!-- center -->
 		</div><!-- header2 -->
-
 	</header>
+
+	<?php 
+		if(file_exists('pages/'.$url.'.php')){
+			include('pages/'.$url.'.php');
+		}else{
+			$pagina404 = true;
+			include('pages/404.php');
+		}
+	 ?>
+
+
+	 <footer <?php if(isset($pagina404) && $pagina404 == true) echo 'class = "fixed"'; ?> >
+	 		<div class="center">
+	 			<h6 class="left">2021@ MAGU'S. Todos os direitos reservados </h6>
+	 			<div class="rede-sociais right">
+		 			<nav>
+						<ul>
+							<li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href=""><i class="fab fa-instagram"></i></a></li>
+							<li><a href=""><i class="fab fa-whatsapp"></i></a></li>
+							</ul>
+					</nav>
+				</div><!--Redes-sociais-->
+	 		</div><!--Center-->
+	 </footer>
 </body>
 </html>

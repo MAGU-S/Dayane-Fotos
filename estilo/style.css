@@ -91,14 +91,15 @@ header .rede-sociais a{
 
 .header2 a{
 	color: #A68C86;
+	padding: 15px 0;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 .header2 .active-menu{
 	color: #D9C0BA !important;
 	border-bottom: 2px solid #D9C0BA;
 	padding-bottom: 15px;
-	padding-left: 15px;
-	padding-right: 15px;
 }
 
 footer {

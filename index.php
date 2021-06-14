@@ -84,7 +84,12 @@
 							</ul>
 					</nav>
 				</div><!--Redes-sociais-->
+				<div class="clear"></div>
 	 		</div><!--Center-->
 	 </footer>
+
+	 <script src="<?php INCLUDE_PATH; ?>js/jquery.js"></script>
+	 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyD-paHA3TdyaAJRGoC1eehHDvuygO0DQ8M"></script>
+	<script src="<?php echo INCLUDE_PATH; ?>JQuery/map.js"></script>
 </body>
 </html>

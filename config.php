@@ -6,7 +6,7 @@
 
 	date_default_timezone_set('America/Sao_Paulo');
 
-	define('INCLUDE_PATH','http://localhost/Dayane_Fotos/');
+	define('INCLUDE_PATH','http://localhost/Dayane-Fotos/');
 
 	function activeMenu($par){
 		$url = explode('/',@$_GET['url'])[0];

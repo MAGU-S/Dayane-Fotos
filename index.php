@@ -9,7 +9,8 @@
 	<link rel="stylesheet" href="<?php echo INCLUDE_PATH; ?>estilo/css/all.css"><!--icones_stilo-->
 	<link rel="preconnect" href="https://fonts.gstatic.comn"><!--icones-->
 
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet"><!--fonte:open sans-->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet"><!--fonte:open sans & Oswald-->
 
 	<link href="<?php echo INCLUDE_PATH; ?>estilo/style.css" rel="stylesheet"><!--estilo do site-->
 	<link rel="icon" href="<?php echo INCLUDE_PATH; ?>favicon.ico" type="image/x-icon" />
@@ -19,7 +20,6 @@
 	<meta name="description" href="Site De Fotos da Dayane, Contrate o nosso serviço, veja alguns dos meus ensaios e trabalhos, e conheça nosso Álbum Fotofigurinha."> 
 	
 
-	
 </head>
 <body>
 
@@ -84,7 +84,10 @@
 							</ul>
 					</nav>
 				</div><!--Redes-sociais-->
+				 <div class="clear"></div>
 	 		</div><!--Center-->
 	 </footer>
+
+	 <script src="<?php echo INCLUDE_PATH; ?>js/scripts.js"></script>
 </body>
 </html>

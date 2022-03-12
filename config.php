@@ -10,10 +10,13 @@
 
 	function activeMenu($par){
 		$url = explode('/',@$_GET['url'])[0];
+		
 		if($url == $par){
 			echo 'class="active-menu"';
+			}
 		}
-	}
+		
+	
 
 
 ?>

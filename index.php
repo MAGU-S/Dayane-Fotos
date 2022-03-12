@@ -15,7 +15,7 @@
 	<link href="<?php echo INCLUDE_PATH; ?>estilo/style.css" rel="stylesheet"><!--estilo do site-->
 	<link rel="icon" href="<?php echo INCLUDE_PATH; ?>favicon.ico" type="image/x-icon" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"><!--deixar o site responsivo-->
-	<meta name="author" content="Matheus Henrique de Oliveira Viana">
+	<meta name="author" content="Matheus Henrique de Oliveira Viana & Gustavo Furlanetto">
 	<meta name="keywords" content="fotos,álbum de fotos,photo,imagem,fotos para casamento,recem nascido,gravida,albuns de figurinhas,presente dia,presenteie,fotofigurinha,fotografa,fotografo,fotografia">
 	<meta name="description" href="Site De Fotos da Dayane, Contrate o nosso serviço, veja alguns dos meus ensaios e trabalhos, e conheça nosso Álbum Fotofigurinha."> 
 	
@@ -24,7 +24,7 @@
 <body>
 
 	<?php 
-		$url = isset($_GET['url']) ? $_GET['url'] : 'Home';
+		$url = isset($_GET['url']) ? $_GET['url'] : 'home';
 	 ?>
 
 
@@ -52,9 +52,9 @@
 			<div class="center">
 				<nav>
 					<ul>
-						<li><a title="Home" <?php activeMenu('Home'); ?> href="<?php echo INCLUDE_PATH; ?>Home">HOME</a></li>
-						<li><a title="Albuns" <?php activeMenu('Albuns'); ?> href="<?php echo INCLUDE_PATH; ?>Albuns">ÁLBUNS</a></li>
-						<li><a title="Contato" <?php activeMenu('Contato'); ?> href="<?php echo INCLUDE_PATH; ?>Contato">CONTATO</a></li>
+						<li><a title="Home" <?php activeMenu('home'); ?> href="<?php echo INCLUDE_PATH; ?>Home">HOME</a></li>
+						<li><a title="Albuns" <?php activeMenu('albuns'); ?> href="<?php echo INCLUDE_PATH; ?>Albuns">ÁLBUNS</a></li>
+						<li><a title="Contato" <?php activeMenu('contato'); ?> href="<?php echo INCLUDE_PATH; ?>Contato">CONTATO</a></li>
 					</ul>
 				</nav>
 			</div><!-- center -->

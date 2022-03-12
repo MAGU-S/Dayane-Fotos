@@ -2,7 +2,7 @@
 <div id="popup" class="popup">  <!-- abrir imagem -->
 	<?php 
 	
-			$imgpopup = $_GET['src'];
+        //$imgpopup = $_GET['src'];
 		
 	?>
 
@@ -13,7 +13,7 @@
 		</div>
 
 		<div class="img-up">
-			<img src="<?php echo $imgpopup ?>">
+			<img src="<?php //echo $imgpopup ?>">
 		</div>
 	</div>
 </a>	
